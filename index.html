@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Guess Word Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrapper">
+    <h1>🎯 Guess the Letter</h1>
+    <div id="hintSection">
+      <p>Hints Left: <span id="hintsLeft">3</span></p>
+      <div id="hintList"></div>
+    </div>
+    <div id="gameBoard" class="grid"></div>
+    <div class="controls">
+      <button onclick="showHint()">Show Hint</button>
+      <button onclick="deleteLastLetter()">Delete</button>
+      <button onclick="startGame()">Refresh</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
